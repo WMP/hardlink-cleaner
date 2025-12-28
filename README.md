@@ -9,6 +9,10 @@ Perfect for cleaning up torrent directories, deduplication systems, or any files
 
 **[Quick Start](docs/QUICKSTART.md)** | **[Examples](docs/EXAMPLES.md)** | **[FAQ](docs/FAQ.md)** | **[Installation Guide](docs/INSTALL.md)**
 
+## 🎬 Demo
+
+[![asciicast](https://asciinema.org/a/gtAiqfnObwAA9X8hcLLRYCnwv.svg)](https://asciinema.org/a/gtAiqfnObwAA9X8hcLLRYCnwv)
+
 ## ✨ Features
 
 - **Interactive ncdu-style TUI** - Browse directories, see aggregated sizes, select files/folders for deletion
