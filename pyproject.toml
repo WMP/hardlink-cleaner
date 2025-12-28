@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hardlink-cleaner"
+version = "1.0.0"
+description = "Interactive TUI tool for finding and cleaning hardlinked files to reclaim disk space"
+authors = [{name = "WMP"}]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console :: Curses",
+    "Intended Audience :: System Administrators",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+keywords = ["hardlink", "disk-space", "cleanup", "filesystem", "tui", "ncurses"]
+
+[project.urls]
+Homepage = "https://github.com/wmp/hardlink-cleaner"
+Repository = "https://github.com/wmp/hardlink-cleaner"
+Issues = "https://github.com/wmp/hardlink-cleaner/issues"
+
+[project.scripts]
+hardlink-cleaner = "hardlink_cleaner:main_entry"
+
+[tool.setuptools]
+py-modules = ["hardlink_cleaner"]
